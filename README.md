@@ -1,6 +1,6 @@
 # vue3-damp-firework
 The interesting component for Vue developers.
-<p align="center"><img src="/dampion/Vue-damp-fireworks/raw/master/public/fireworks.gif" alt="Vue dampion fireworks"></p>
+<!-- <p align="center"><img src="/dampion/Vue-damp-fireworks/raw/master/public/fireworks.gif" alt="Vue dampion fireworks"></p> -->
 
 ## Contribution Guide
 
@@ -40,7 +40,7 @@ Vue.use(VueFireworks)
 # global registered in main.js 
 import { createApp } from 'vue'
 import App from './App.vue'
-import VueFireworks from 'vue-damp-fireworks'
+import VueFireworks from 'vue3-damp-fireworks'
 createApp(App).use(VueFireworks)
 
 # Usage in .vue

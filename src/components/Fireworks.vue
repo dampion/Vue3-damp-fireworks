@@ -32,6 +32,13 @@
   </div>
 </template>
 
+//导出组件名*
+<script>
+export default{
+    name:'vue-damp-fireworks'
+}
+</script> 
+
 <script setup>
 import { computed, onMounted, ref } from 'vue';
 
