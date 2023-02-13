@@ -2,14 +2,25 @@
   "name": "vue3-damp-fireworks",
   "description": "A Vue3 based fireworks component",
   "author": "dampion <evanchen79@gmail.com>",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "keywords": [
+    "vue3",
     "firework",
+    "vue3 firework",
     "煙火",
     "烟花",
     "烟火",
     "爆竹"
   ],
+  "files": ["dist"],
+  "main": "./dist/vue3-damp-fireworks.js",
+  "module": "./dist/vue3-damp-fireworks.js",
+  "exports": {
+    ".": {
+      "import": "./dist/vue3-damp-fireworks.es.js",
+      "require": "./dist/vue3-damp-fireworks.umd.js"
+    }
+  },
   "type": "module",
   "scripts": {
     "dev": "vite",
