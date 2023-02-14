@@ -1,19 +1,18 @@
 import Fireworks from './Fireworks.vue'
 
-const components = [
-  {
-    name: Fireworks.name || 'vue-damp-fireworks',
-    component: Fireworks
-  }
-]
+// const components = [
+//   {
+//     name: Fireworks.name || 'vue-damp-fireworks',
+//     component: Fireworks
+//   }
+// ]
 const install = function (app) {
   // if (install.installed) return
   // install.installed = true
-  components.forEach(res => {
-    app.component(res.name, res.component)
-  })
+  // components.forEach(res => {
+  //   app.component(res.name, res.component)
+  // })
+  app.component("vue-damp-fireworks", Fireworks)
 }
 
-export default {
-  install
-}
+export default install

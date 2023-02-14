@@ -241,7 +241,7 @@ onMounted(()=>{
     },props.duration)
   }
   window.addEventListener('click', (event) => {
-    const seed = Seed(event.pageX, event.pageY, self.randomInt(175, 185), [self.randomInt(0, 359), '100%', '50%']);
+    const seed = Seed(event.pageX, event.pageY, randomInt(175, 185), [randomInt(0, 359), '100%', '50%']);
     seeds.value.push(seed);
   });
   window.addEventListener('resize', () => {
