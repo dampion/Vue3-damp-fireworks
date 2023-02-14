@@ -50,7 +50,19 @@ createApp(App).use(VueFireworks)
     <p>add any element you want</p>
 </vue-damp-fireworks>
 ```
-
+Noted:
+```javascript
+# vite.config.js
+resolve: {
+  dedupe: [
+    'vue'
+  ]
+},
+```
+You should add this to your project vite.config.js if you met this problem below
+```
+TypeError: Cannot read properties of null (reading 'isCE')
+```
 ### Component Props
 
 All parameters are optional and fireworks determines the default value of each prop.
